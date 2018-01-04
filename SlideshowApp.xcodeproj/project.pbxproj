@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E75ACC01FE8D12F009E0AE5 /* IMG_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5E75ACBD1FE8D12F009E0AE5 /* IMG_1.JPG */; };
+		5E75ACC11FE8D12F009E0AE5 /* IMG_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5E75ACBE1FE8D12F009E0AE5 /* IMG_2.JPG */; };
+		5E75ACC21FE8D130009E0AE5 /* IMG_3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5E75ACBF1FE8D12F009E0AE5 /* IMG_3.JPG */; };
+		5E75ACC41FE8DA67009E0AE5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E75ACC31FE8DA67009E0AE5 /* ResultViewController.swift */; };
 		B59FF9231FD270A40084B2A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FF9221FD270A40084B2A7 /* AppDelegate.swift */; };
 		B59FF9251FD270A40084B2A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FF9241FD270A40084B2A7 /* ViewController.swift */; };
 		B59FF9281FD270A40084B2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59FF9261FD270A40084B2A7 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E75ACBD1FE8D12F009E0AE5 /* IMG_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1.JPG; sourceTree = "<group>"; };
+		5E75ACBE1FE8D12F009E0AE5 /* IMG_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2.JPG; sourceTree = "<group>"; };
+		5E75ACBF1FE8D12F009E0AE5 /* IMG_3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3.JPG; sourceTree = "<group>"; };
+		5E75ACC31FE8DA67009E0AE5 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		B59FF91F1FD270A40084B2A7 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59FF9221FD270A40084B2A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B59FF9241FD270A40084B2A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +48,9 @@
 			children = (
 				B59FF9211FD270A40084B2A7 /* SlideshowApp */,
 				B59FF9201FD270A40084B2A7 /* Products */,
+				5E75ACBD1FE8D12F009E0AE5 /* IMG_1.JPG */,
+				5E75ACBE1FE8D12F009E0AE5 /* IMG_2.JPG */,
+				5E75ACBF1FE8D12F009E0AE5 /* IMG_3.JPG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +68,7 @@
 				B59FF9221FD270A40084B2A7 /* AppDelegate.swift */,
 				B59FF9241FD270A40084B2A7 /* ViewController.swift */,
 				B59FF9261FD270A40084B2A7 /* Main.storyboard */,
+				5E75ACC31FE8DA67009E0AE5 /* ResultViewController.swift */,
 				B59FF9291FD270A40084B2A7 /* Assets.xcassets */,
 				B59FF92B1FD270A40084B2A7 /* LaunchScreen.storyboard */,
 				B59FF92E1FD270A40084B2A7 /* Info.plist */,
@@ -125,7 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59FF92D1FD270A40084B2A7 /* LaunchScreen.storyboard in Resources */,
+				5E75ACC21FE8D130009E0AE5 /* IMG_3.JPG in Resources */,
 				B59FF92A1FD270A40084B2A7 /* Assets.xcassets in Resources */,
+				5E75ACC01FE8D12F009E0AE5 /* IMG_1.JPG in Resources */,
+				5E75ACC11FE8D12F009E0AE5 /* IMG_2.JPG in Resources */,
 				B59FF9281FD270A40084B2A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			files = (
 				B59FF9251FD270A40084B2A7 /* ViewController.swift in Sources */,
 				B59FF9231FD270A40084B2A7 /* AppDelegate.swift in Sources */,
+				5E75ACC41FE8DA67009E0AE5 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +318,7 @@
 				B59FF9331FD270A40084B2A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
